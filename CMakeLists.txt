@@ -179,6 +179,7 @@ target_link_libraries(ncgr2tga ${XOREOSTOOLS_LIBRARIES})
 target_link_libraries(cbgt2tga ${XOREOSTOOLS_LIBRARIES})
 target_link_libraries(cdpth2tga ${XOREOSTOOLS_LIBRARIES})
 target_link_libraries(ncsdis ${XOREOSTOOLS_LIBRARIES})
+target_link_libraries(xoreos-cli ${XOREOSTOOLS_LIBRARIES})
 
 
 # -------------------------------------------------------------------------

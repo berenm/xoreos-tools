@@ -33,6 +33,7 @@ bin_PROGRAMS = \
                cbgt2tga \
                cdpth2tga \
                ncsdis \
+               xoreos-cli \
                $(EMPTY)
 
 gff2xml_SOURCES = \
@@ -124,6 +125,16 @@ unkeybif_LDADD   = \
                    common/libcommon.la \
                    $(LDADD) \
                    $(EMPTY)
+
+xoreos-cli_SOURCES = \
+                  xoreos-cli.cpp \
+                  util.cpp \
+                  $(EMPTY)
+xoreos-cli_LDADD   = \
+                  aurora/libaurora.la \
+                  common/libcommon.la \
+                  $(LDADD) \
+                  $(EMPTY)
 
 unnds_SOURCES = \
                 unnds.cpp \
